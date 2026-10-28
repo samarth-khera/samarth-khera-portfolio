@@ -1,0 +1,9 @@
+# Keep the upload to what the build needs (Vercel installs deps and runs `npm run build` itself).
+node_modules
+dist
+docs
+*.log
+.env*
+.DS_Store
+.vscode
+.idea
